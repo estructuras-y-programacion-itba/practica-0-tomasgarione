@@ -5,6 +5,7 @@ def hola_mundo():
 
 def main():
     # Aqui ejecutas tus soluciones
+    a=0
     print(hola_mundo())
 
 
