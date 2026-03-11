@@ -23,8 +23,8 @@ def contar_dados(dados):
     return conteo
 
 def es_generala(conteo):
-    for c in conteo:
-        if c==5:
+    for a in conteo:
+        if a==5:
             return True
     return False
 
@@ -189,6 +189,5 @@ def main():
         guardar_csv(j1,j2)
     mostrar_ganador(j1,j2)
 
-# No cambiar a partir de aqui
 if __name__ == "__main__":
     main()
